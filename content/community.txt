@@ -3,7 +3,7 @@ The **Protein Journal Club (PJC)** at NCBS is a student-run group dedicated to d
 
 With my colleagues Aysha and Harika, I organised the PJC from 2023 to 2025, managing all aspects of coordination: speaker scheduling, outreach, participant recruitment, venue and logistics, and refreshments. I also designed the journal club's visual identity, including promotional posters and the PJC logo.
 
-I’ve shared more about my own talks—including abstracts and slides—over <a href="#outreach" onclick='document.querySelector(".outreach-tab[data-target=\"panel-pres\"]").click(); setTimeout(function(){ document.getElementById("talks-list").scrollIntoView({behavior: "smooth"}); }, 50);' target="_self" style="color:var(--color-teal); text-decoration:none;">**<u>here</u>**</a>.
+I’ve shared more about my own talks—including announcements and slides—over <a href="#outreach" onclick='document.querySelector(".outreach-tab[data-target=\"panel-pres\"]").click(); setTimeout(function(){ document.getElementById("talks-list").scrollIntoView({behavior: "smooth"}); }, 50);' target="_self" style="color:var(--color-teal); text-decoration:none;">**<u>here</u>**</a>.
 
 Check out some of the posters we put together for our recruitment drives:
 
