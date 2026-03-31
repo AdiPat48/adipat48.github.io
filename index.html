@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Academic website of Aditi Pathak — Integrated PhD student at NCBS Bangalore, working on protein–protein interactions and computational structural biology." />
+  <title>Aditi Pathak</title>
+
+  <!-- Config must load before main.js so palette is available immediately -->
+  <script src="content/config.js?v=23"></script>
+  <link rel="stylesheet" href="style.css?v=23" />
+  <script src="main.js?v=23" defer></script>
+</head>
+<body>
+<script>
+  window.addEventListener('error', function(e) {
+    var d = document.createElement('div');
+    d.style = 'color:red; background:yellow; font-weight:bold; padding:20px; z-index:99999; position:fixed; top:0; left:0; right:0;';
+    d.textContent = 'ERROR: ' + e.message;
+    document.body.prepend(d);
+  });
+  window.addEventListener('unhandledrejection', function(e) {
+    var d = document.createElement('div');
+    d.style = 'color:red; background:yellow; font-weight:bold; padding:20px; z-index:99999; position:fixed; top:50px; left:0; right:0;';
+    d.textContent = 'PROMISE ERROR: ' + (e.reason && e.reason.stack ? e.reason.stack : e.reason);
+    document.body.prepend(d);
+  });
+</script>
+
+  <!-- ═══════════════════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════════════════════ -->
+  <nav id="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <span class="nav-logo">Aditi Pathak</span>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <!-- Populated by main.js from config.js -->
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════════════════
+       HOME — Hero
+  ════════════════════════════════════════════════════════ -->
+  <section id="home" aria-label="Home">
+    <div class="container">
+      <div class="hero-grid">
+
+        <!-- Photo + socials column -->
+        <div class="hero-photo-wrap">
+          <img
+            src="assets/images/profile.jpeg"
+            alt="Portrait of Aditi Pathak"
+            class="hero-photo"
+            width="190" height="190"
+          />
+          <div class="hero-socials">
+            <a id="hero-email" href="mailto:aditipathak@ncbs.res.in" title="Email" target="_blank" rel="noopener">
+              <!-- Email icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              <span class="social-label">Email</span>
+            </a>
+            <a id="social-scholar" href="#" target="_blank" rel="noopener" title="Google Scholar">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 10a8 8 0 0 1 7.162 3.44L24 9.5 12 0z"/></svg>
+              <span class="social-label">Scholar</span>
+            </a>
+            <a id="social-linkedin" href="#" target="_blank" rel="noopener" title="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              <span class="social-label">LinkedIn</span>
+            </a>
+            <a id="social-github" href="#" target="_blank" rel="noopener" title="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12c0 5.303 3.438 9.8 8.207 11.387.6.11.793-.26.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              <span class="social-label">GitHub</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Text column -->
+        <div class="hero-content">
+          <h1 class="hero-name" id="hero-name">Aditi Pathak</h1>
+          <p class="hero-tagline" id="hero-tagline">Integrated PhD Student · NCBS Bangalore</p>
+          <p class="hero-headline" id="hero-headline"></p>
+          <div class="hero-bio" id="hero-bio"></div>
+          <span class="hero-callout" id="hero-callout"></span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       ABOUT
+  ════════════════════════════════════════════════════════ -->
+  <section id="about" aria-label="About">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>About</h2>
+      </div>
+
+      <div class="about-grid">
+        <!-- Left: Academic Timeline -->
+        <div>
+          <div class="section-title" style="margin-top:0;">
+            <span class="section-label">Academic Timeline</span>
+          </div>
+          <div id="edu-timeline" class="timeline"></div>
+        </div>
+
+        <!-- Right: Distinctions -->
+        <div>
+          <div class="section-title" style="margin-top:0;">
+            <span class="section-label">Distinctions</span>
+          </div>
+          <ul id="distinctions-list" class="distinctions-list"></ul>
+        </div>
+      </div>
+
+      <!-- Bottom: Extracurriculars -->
+      <div id="extracurriculars-section" class="reveal">
+        <div class="section-title" style="margin-top:3rem;">
+          <span class="section-label">Extracurriculars</span>
+        </div>
+        <div id="extracurriculars-text" class="extracurriculars-text"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       RESEARCH
+  ════════════════════════════════════════════════════════ -->
+  <section id="research" aria-label="Research">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Research</h2>
+      </div>
+
+      <!-- Tab switcher -->
+      <div class="research-tabs" role="tablist">
+        <button class="research-tab active" role="tab" data-target="panel-phd" aria-selected="true">PhD Research</button>
+        <button class="research-tab" role="tab" data-target="panel-prephd" aria-selected="false">Pre-PhD</button>
+      </div>
+
+      <!-- PhD panel -->
+      <div id="panel-phd" class="research-panel active" role="tabpanel">
+        <div id="research-intro" class="research-intro" style="margin-top:1.5rem;"></div>
+        <div id="research-projects" class="research-projects"></div>
+      </div>
+
+      <!-- Pre-PhD panel -->
+      <div id="panel-prephd" class="research-panel" role="tabpanel">
+        <div id="prephd-intro" class="research-intro" style="margin-top:1.5rem;"></div>
+        <div id="prephd-projects" class="research-projects"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       PUBLICATIONS
+  ════════════════════════════════════════════════════════ -->
+  <section id="publications" aria-label="Publications">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Publications</h2>
+      </div>
+
+      <p id="pub-note" class="pub-note"></p>
+      <div id="pub-list" class="pub-list"></div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       OUTREACH
+  ════════════════════════════════════════════════════════ -->
+  <section id="outreach" aria-label="Outreach">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Outreach</h2>
+      </div>
+
+      <!-- Tab switcher -->
+      <div class="outreach-tabs" role="tablist">
+        <button class="outreach-tab active" role="tab" data-target="panel-teaching" aria-selected="true">Teaching &amp; Mentoring</button>
+        <button class="outreach-tab" role="tab" data-target="panel-pres" aria-selected="false">Presentations &amp; Posters</button>
+      </div>
+
+      <!-- Teaching panel -->
+      <div id="panel-teaching" class="outreach-panel active" role="tabpanel">
+        <div id="teaching-highlight" class="teaching-highlight reveal"></div>
+        <p id="mentees-intro" class="mentees-intro"></p>
+        <div id="mentees-grid" class="mentees-grid"></div>
+      </div>
+
+      <!-- Presentations panel -->
+      <div id="panel-pres" class="outreach-panel" role="tabpanel">
+        <div class="pres-group">
+          <h3 style="font-style:normal; font-family: var(--font-body); font-size: 0.78rem; font-weight:700; text-transform:uppercase; letter-spacing:0.1em; color: var(--color-teal); border-bottom: 1px solid var(--color-cream); padding-bottom:0.4rem; margin-bottom:1rem;">
+            Posters
+          </h3>
+          <ul id="posters-list" class="pres-list"></ul>
+        </div>
+        <div id="talks-list"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       COMMUNITY
+  ════════════════════════════════════════════════════════ -->
+  <section id="community" aria-label="Community">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Community</h2>
+      </div>
+
+      <!-- Tab switcher -->
+      <div class="community-tabs" role="tablist">
+        <button class="community-tab active" role="tab" data-target="panel-pjc" aria-selected="true">Protein Journal Club</button>
+        <button class="community-tab" role="tab" data-target="panel-leadership" aria-selected="false">Leadership &amp; Service</button>
+      </div>
+
+      <!-- PJC Panel -->
+      <div id="panel-pjc" class="community-panel active" role="tabpanel">
+        <div class="pjc-hero">
+          <img
+            src="assets/images/pjc_related/pjc_logo_transparent.svg"
+            alt="Protein Journal Club logo"
+            class="pjc-logo"
+            loading="lazy"
+          />
+          <div>
+            <div class="pjc-tagline" id="pjc-about" style="max-width: none;"></div>
+          </div>
+        </div>
+
+        <div id="pjc-posters" class="poster-grid"></div>
+
+        <p id="pjc-talks-redirect" style="margin-top: 1.5rem; font-weight: 500;"></p>
+
+        <h3 style="margin-top:2.5rem; font-family: var(--font-body); font-size: 1rem; color: var(--color-teal);">A look back at some of the sessions we’ve curated:</h3>
+        <div id="pjc-sessions-table" style="overflow-x: auto;"></div>
+      </div>
+
+      <!-- Leadership Panel -->
+      <div id="panel-leadership" class="community-panel" role="tabpanel">
+        <div id="leadership-roles" class="pjc-blocks"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════════════════ -->
+  <footer id="site-footer">
+    <div class="container">
+      <p>
+        Aditi Pathak &nbsp;·&nbsp; NCBS, Bangalore
+      </p>
+      <p style="margin-top:0.4rem; font-size:0.75rem; opacity:0.5;">
+        Built with vanilla HTML / CSS / JS &nbsp;·&nbsp; Hosted on GitHub Pages
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>

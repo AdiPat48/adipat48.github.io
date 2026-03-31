@@ -1,0 +1,10 @@
+## headline
+Dissecting protein–protein interactions in biomolecular complexes
+
+## bio
+I'm an Integrated PhD student with Prof. R. Sowdhamini at the National Centre for Biological Sciences, Bangalore. My research in the Computational Approaches to Protein Science (CAPS) group focuses on decoding the energetic and structural logic behind protein–protein interactions in macromolecular assemblies. My work blends structural modeling, molecular dynamics simulations, hotspot prediction, and evolutionary analysis to understand interface properties and interaction mechanisms.
+
+I have a long-term interest in translating these insights towards protein design and engineering.
+
+## callout
+Currently seeking postdoctoral opportunities for 2027.

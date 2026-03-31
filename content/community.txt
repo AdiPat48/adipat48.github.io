@@ -1,0 +1,44 @@
+## pjc_about
+The **Protein Journal Club (PJC)** at NCBS is a student-run group dedicated to discussing exciting and thought-provoking papers at the intersection of protein science, structural biology, and computational methods.
+
+With my colleagues Aysha and Harika, I organised the PJC from 2023 to 2025, managing all aspects of coordination: speaker scheduling, outreach, participant recruitment, venue and logistics, and refreshments. I also designed the journal club's visual identity, including promotional posters and the PJC logo.
+
+I’ve shared more about my own talks—including abstracts and slides—over <a href="#outreach" onclick='document.querySelector(".outreach-tab[data-target=\"panel-pres\"]").click(); setTimeout(function(){ document.getElementById("talks-list").scrollIntoView({behavior: "smooth"}); }, 50);' target="_self" style="color:var(--color-teal); text-decoration:none;">**<u>here</u>**</a>.
+
+Check out some of the posters we put together for our recruitment drives:
+
+## pjc_posters
+assets/images/pjc_related/PJC Recruitment_2_cropped_page-0001.jpg
+assets/images/pjc_related/PJC_poster_recruitment_cropped_pages-to-jpg-0001.jpg
+assets/images/pjc_related/PJC_recruitment_Poster_3_cropped_page-0001.jpg
+
+## pjc_curated_sessions
+Date,Presenter,Topic,Paper Title
+12/4/2024,Sahil Lall,The Golgi’s Got It Sorted!,A size filter at the Golgi regulates apical membrane protein sorting
+11/20/2024,Pratishruti Panda,Fold Play: AlphaFold’s Nobel Leap in Protein Science!,Highly accurate protein structure prediction with AlphaFold
+10/30/2024,Harika Kamma,Mapping Phosphorylation Dynamics: Insights into Cell Cycle Transitions,A cyclin-dependent kinase-mediated phosphorylation switch of disordered protein condensation
+10/9/2024,Aysha Fahmeetha,How Do Ribosomes Shape Proteins at Birth?,Mapping Protein-Protein Interactions at Birth: Single-Particle Cryo-EM Analysis of a Ribosome–Nascent Globin Complex
+9/18/2024,Manjulika Bharti,"Junction Junction, How Do You Function?",Molecular determination of claudin-15 organization and channel selectivity
+8/21/2024,Muskaan Jindal,A Deep Dive into Cellular Architecture with AI,Convolutional networks for supervised mining of molecular patterns within cellular context
+7/17/2024,Revathy Menon,Finding the Sweet Spot,Highly accurate carbohydrate-binding site prediction with DeepGlycanSite
+6/19/2024,Partha Sankar,Do proteins keep their cool at all temperatures?,Physiological temperature drives TRPM4 ligand recognition and gating
+6/5/2024,Apurva Phale,Microscopic Mechanics: How Loop Dynamics Fuel Protein Unfolding in Cells,Ultrafast pore-loop dynamics in a AAA+ machine point to a Brownian-ratchet mechanism for protein translocation
+5/15/2024,Kalpaja Acharya,Droplets to Aggregates: The Path of Protein Misfolding,An intrinsically disordered pathological prion variant Y145Stop converts into self-seeding amyloids via liquid-liquid phase separation
+5/1/2024,Naren C,How Proteins 'Creatively' Craft their Unique Folds!,Creative destruction: New protein folds from old
+4/16/2024,Neerja Viswanathan,The Evolutionary Odyssey of CRISPR-Cas9,Evolution of CRISPR-associated Endonucleases as Inferred from Resurrected Proteins
+4/2/2024,Aditi Pathak,"(Artificially) Intelligent Approaches to ""Directing"" Directed Evolution",Machine learning-assisted directed protein evolution with combinatorial libraries
+7/11/2023,Aysha Fahmeetha,Crosstalk between regulatory elements in the disordered TRPV4 N-terminus modulates lipid-dependent channel activity,Crosstalk between regulatory elements in the disordered TRPV4 N-terminus modulates lipid-dependent channel activity
+5/16/2023,Aditi Pathak,A Protein Tale of Jekyll and Hyde,Evolution of fold switching in a metamorphic protein
+5/2/2023,Anwesha Biswas,Identification of a quality-control factor that monitors failures during proteasome assembly,Identification of a quality-control factor that monitors failures during proteasome assembly
+4/18/2023,Kalpaja Acharya,Phase separation directs ubiquitination of gene-body nucleosomes,Phase separation directs ubiquitination of gene-body nucleosomes
+4/4/2023,Arkadeep Banerjee,Substitutions at Nonconserved Rheostat Positions Modulate Function by Rewiring Long-Range,Substitutions at Nonconserved Rheostat Positions Modulate Function by Rewiring Long-Range
+
+## leadership_roles
+### CAPS Lab Clusters In-charge (Nov 2024 – present)
+Oversee routine functioning of lab servers and compute clusters; coordinate troubleshooting and maintenance to ensure reliable access for lab members.
+
+### CAPS Lab Stores Manager (Aug 2022 – Nov 2024)
+Managed procurement and inventory of lab stationery and supplies; coordinated timely purchasing.
+
+### Head of Department (Events), Genaces 2019 — Jai Hind College
+Led planning and execution of the Intercollegiate Biosciences Festival; chaired Events Department meetings; coordinated across teams to ensure smooth operations on the festival day.

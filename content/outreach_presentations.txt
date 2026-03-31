@@ -1,0 +1,29 @@
+## posters
+### 2026
+**Bridging Protein Sequence, Structure, and Function Through Integrative Computational Approaches**
+2nd DAE Conclave, TIFR Mumbai · Jan 14–18, 2026
+
+### 2025
+**Computational dissection of gap junction anatomy**
+NCBS Annual Talks · Jan 15–17, 2025
+
+### 2023
+**PIMADB2.0: An Updated Database of Protein-Protein Interactions in Macromolecular Assemblies**
+MASFE (Macromolecular Assemblies: Structure, Function, and Evolution), IISER Pune · Aug 2–4, 2023
+
+## talks
+### Annual Work Seminars, NCBS
+- **Computational Studies of Gap Junction Channels** (Nov 4, 2024)
+- **Dissecting Protein-Protein Interactions in Macromolecular Assemblies** (Sep 4, 2023)
+
+### Protein Journal Club, NCBS
+- **(Artificially) Intelligent Approaches to "Directing" Directed Evolution** (Apr 2, 2024)
+Directed evolution has been a protein-building powerhouse, but sifting through endless possibilities can be a drag. Think endless rounds of protein 'Try This' and 'Try That'. As such, in tomorrow's PJC, we will explore how Wu et al. tackle this problem using machine learning to enhance directed evolution - Say goodbye to endless variant testing and hello to optimized outcomes!
+btn-blue: [Check out slides from this presentation](assets/pjc/PJC_April_2024.pdf)
+ref: *Z. Wu, S.B.J. Kan, et. al. "Machine learning-assisted directed protein evolution with combinatorial libraries", Proc. Natl. Acad. Sci. U.S.A. 116(18) 8852-8858, (2019).*
+- **A Protein Tale of Jekyll and Hyde** (May 16, 2023)
+Metamorphic proteins defy the conventional protein folding paradigm by switching between different folds. Through a unique approach combining ancestral reconstruction and Nuclear Magnetic Resonance, Dishman et. al try to answer an interesting question- how do proteins evolve to become "shape-shifters"?
+Join us at the next PJC as we discuss what drives protein metamorphosis, followed by tips on designing your own fold switching proteins!
+btn-blue: [Check out slides from this presentation](assets/pjc/PJC_May_2023.pdf)
+ref: *Dishman, Acacia F., et al. "Evolution of fold switching in a metamorphic protein." Science 371.6524 (2021): 86-90.*
+ref: *Ruan, Biao, et al. "Design and characterization of a protein fold switching network." Nature Communications 14.1 (2023): 431.*

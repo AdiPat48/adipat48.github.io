@@ -1,0 +1,57 @@
+## note
+* Equal contribution  |  # Corresponding author
+
+## pub
+authors: Pathak A, Tiwari V, and Sowdhamini R#
+title: Emerging strategies for computational identification of protein–protein interaction hotspots
+journal: Current Opinion in Structural Biology
+year: Accepted
+type: Review Article
+
+## pub
+authors: Joshi S*, Pathak A*, Regati DR*, Menon R, Ajith DS, Sheshadri A, Viswanathan N, Ray P, Koul V, Panda P, Bhambore SA, Verma S, Sinha A, Shafi KM, Pavalam M, Sowdhamini R#
+title: GRAYU: Graph-based Database integrating Ayurvedic formulations, medicinal plants, phytochemicals and diseases
+journal: Frontiers in Pharmacology
+year: 2026
+
+## pub
+authors: Pathak A, Sowdhamini R#
+title: Computational structural analysis sheds light on the molecular grammar of gap junction proteins
+journal: Biochimie
+year: 2025
+
+## pub
+authors: Tiwari V*, Pathak A*, Poojary T, Sowdhamini R#, Surolia A#
+title: Exploration of structural space of Cus17 lectin with glycans using molecular docking and simulation studies
+journal: Computational and Structural Biotechnology Journal
+year: 2025
+
+## pub
+authors: Pathak A, Tiwari V, Menon R, Sowdhamini R#
+title: Prediction of Protein–Protein Interactions
+journal: Encyclopedia of Bioinformatics and Computational Biology (Second Edition)
+year: 2025
+type: Book Chapter
+
+## pub
+authors: Verma S, Sharma A, Pathak A, Menon R, Sowdhamini R#
+title: Evolution of Protein Families
+journal: Encyclopedia of Bioinformatics and Computational Biology (Second Edition)
+year: 2025
+type: Book Chapter
+
+## pub
+authors: Arvindekar S, Pathak AS, Majila K, Viswanath S#
+title: Optimizing representations for integrative structural modeling using Bayesian model selection
+journal: Bioinformatics
+year: 2024
+
+## inprep
+authors: Pathak A, Sowdhamini R#
+title: PIMADB2.0: An updated database of protein–protein interactions in macromolecular assemblies
+status: in preparation
+
+## inprep
+authors: Pathak A, Sowdhamini R#
+title: Computational structural modeling of heteromeric gap junction channels
+status: in preparation

@@ -1,0 +1,50 @@
+## teaching
+### Selected Instructor, 13th Undergraduate Lecture Series (May–June 2026)
+Scheduled to deliver an interactive lecture titled **"Build-a-Protein: Designing Life's Tiny Machines."**
+
+## mentoring_intro
+I have mentored 8 students between 2022 and present — 3 Masters students and 5 Undergraduates.
+
+## mentee
+name: Swetha Praveen
+role: Intern (Feb–May 2023)
+project: Sequence and evolutionary analysis of winged-helix domain (WHD) proteins
+note: Poster awarded 2nd Place at Pradarshana 2023.
+
+## mentee
+name: Tejaswini Poojary
+role: Intern (Mar–May 2024)
+project: Molecular dynamics simulations of Cus17 protein (in collaboration with Prof. Avadhesha Surolia, IISc)
+note: Co-authored Tiwari, Pathak et al., 2025.
+
+## mentee
+name: Anusha Banerjee
+role: Intern (May–Jul 2024)
+project: Investigating membrane–ligand interactions of TMA and DMBA derivatives via molecular dynamics (collaboration: Prof. Praveen Kumar Vemula, inStem)
+
+## mentee
+name: Anushree A
+role: Masters Thesis Student (Feb–Jun 2025)
+project: "Integrative sequence–structure approaches to study protein–protein interactions and functional conservation in select proteins"
+
+## mentee
+name: Deepashree M
+role: Masters Thesis Student (Feb–Jun 2025)
+project: "Structural and evolutionary profiling of select human protein–protein interactions across diverse folds"
+
+## mentee
+name: Nithin N.K.
+role: Masters Thesis Student (Feb–Jun 2025)
+project: "Structural, sequence, and evolutionary analysis of erythropoietin–EPOR and HDAC7–CTNNB1 interactions"
+
+## mentee
+name: Deepthi Seetha Ajith
+role: Intern (May–Jun 2025)
+project: Interactive frontend design for the GRAYU database website
+note: Co-authored Joshi, Pathak et al., 2026.
+
+## mentee
+name: Aditya Sheshadri
+role: Intern (May–Jun 2025)
+project: Backend Neo4j graph database integration for the GRAYU website
+note: Co-authored Joshi, Pathak et al., 2026.
