@@ -8,9 +8,9 @@ I’ve shared more about my own talks—including abstracts and slides—over <a
 Check out some of the posters we put together for our recruitment drives:
 
 ## pjc_posters
-assets/images/pjc_related/PJC Recruitment_2_cropped_page-0001.jpg
-assets/images/pjc_related/PJC_poster_recruitment_cropped_pages-to-jpg-0001.jpg
-assets/images/pjc_related/PJC_recruitment_Poster_3_cropped_page-0001.jpg
+assets/images/pjc_related/pjc_rect2.webp
+assets/images/pjc_related/pjc_rect1.webp
+assets/images/pjc_related/pjc_rect3.webp
 
 ## pjc_curated_sessions
 Date,Presenter,Topic,Paper Title
