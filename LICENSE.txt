@@ -1,0 +1,36 @@
+Dual License for the Aditi Pathak Academic Website
+
+There are two major components of this repository:
+1. The static website interface (HTML, CSS, JavaScript)
+2. Personal Content (Biographies, images, curriculum vitae, research text, outreach details)
+
+========================================================================
+I. The Codebase
+The website interface files (index.html, style.css, main.js) are open-source and released under the MIT License.
+
+MIT License
+Copyright (c) 2026 Aditi Pathak
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+========================================================================
+II. Personal Content
+All personal and textual content under the `content/` and `assets/` directories, including but not limited to config strings, personal biographies, research descriptions, contact information, photos, publication histories, and generated content are EXCLUDED from the MIT license.
+
+These files are expressly Copyright (c) 2026 Aditi Pathak. All Rights Reserved. You may not copy, reproduce, or reuse this personal data or identity without explicit written permission from the author.

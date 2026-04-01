@@ -15,3 +15,8 @@ The website is designed with a custom, ultra-lightweight content management syst
 2. **Colors & Navigation**: The `content/config.js` file stores all global site variables. Modify the hexadecimal colours in this dictionary or add/remove buttons from the `nav` list. 
 
 *Note: after making edits, it is helpful to bump the `version` number inside `config.js` to automatically clear browser caches for your visitors.*
+
+## License
+This repository uses a dual-licensing structure to separate the open-source website template from the personal content:
+- **Template Code (HTML, CSS, JS)**: Released under the MIT License. Feel free to use and adapt the code for your own website.
+- **Personal Content (`content/`, `assets/`)**: All Rights Reserved. Please do not copy or reproduce my personal biography, research, photos, CV details, or any content specific to my identity.
