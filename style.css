@@ -155,6 +155,60 @@ section:nth-of-type(even) {
   opacity: 1;
 }
 
+/* Dropdown */
+.nav-links li.has-dropdown {
+  position: relative;
+}
+.nav-links li.has-dropdown .dropdown {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-dark);
+  min-width: 220px;
+  list-style: none;
+  padding: 0.5rem 0;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  opacity: 0;
+  visibility: hidden;
+  transition: all var(--transition);
+  z-index: 101;
+  pointer-events: none;
+}
+.nav-links li.has-dropdown:hover .dropdown {
+  opacity: 1;
+  visibility: visible;
+  top: calc(100% + 5px);
+  pointer-events: auto;
+}
+/* Invisible bridge to prevent hover loss in the gap */
+.nav-links li.has-dropdown .dropdown::before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: 0;
+  right: 0;
+  height: 15px;
+}
+.nav-links li.has-dropdown .dropdown li {
+  margin: 0;
+}
+.nav-links li.has-dropdown .dropdown a {
+  display: block;
+  padding: 0.6rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--color-light-cream);
+  border-radius: 0;
+  text-align: center;
+  white-space: normal;
+}
+.nav-links li.has-dropdown .dropdown a:hover {
+  background: rgba(255,255,255,0.05);
+  color: var(--color-white);
+}
+
 /* Hamburger — mobile */
 .nav-toggle {
   display: none;
@@ -189,6 +243,24 @@ section:nth-of-type(even) {
   }
   .nav-links.open { display: flex; }
   .nav-links a { display: block; padding: 0.6rem 0.9rem; }
+
+  /* Mobile Dropdown Overrides */
+  .nav-links li.has-dropdown .dropdown {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    background: rgba(0,0,0,0.15);
+    box-shadow: none;
+    margin-top: 0.2rem;
+    border-radius: var(--radius);
+    pointer-events: auto;
+  }
+  .nav-links li.has-dropdown .dropdown a {
+    text-align: left;
+    padding-left: 2rem;
+    font-size: 0.8rem;
+  }
 }
 
 /* ── 6. Hero / Home Section ───────────────────────────────── */

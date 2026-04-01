@@ -8,7 +8,7 @@ const SITE_CONFIG = {
   // ── Personal info ──────────────────────────────────────────
   name:    "Aditi Pathak",
   tagline: "Integrated PhD Student · NCBS Bangalore",
-  version: 25,
+  version: 32,
   email:   "aditipathak@ncbs.res.in",
 
   // ── Social links ──────────────────────────────────────────
@@ -31,13 +31,22 @@ const SITE_CONFIG = {
   },
 
   // ── Navigation labels ─────────────────────────────────────
-  // Each item: { label, id }  — id must match <section id="..."> in index.html
+  // Each item: { label, id, sub: [...] }  — id must match <section id="..."> in index.html
   nav: [
     { label: "Home",          id: "home" },
     { label: "About",         id: "about" },
-    { label: "Research",      id: "research" },
+    { label: "Research",      id: "research", sub: [
+      { label: "PhD Research", target: "panel-phd" },
+      { label: "Pre-PhD", target: "panel-prephd" }
+    ]},
     { label: "Publications",  id: "publications" },
-    { label: "Outreach",      id: "outreach" },
-    { label: "Community",     id: "community" },
+    { label: "Outreach",      id: "outreach", sub: [
+      { label: "Teaching & Mentoring", target: "panel-teaching" },
+      { label: "Presentations & Posters", target: "panel-pres" }
+    ]},
+    { label: "Community",     id: "community", sub: [
+      { label: "Protein Journal Club", target: "panel-pjc" },
+      { label: "Leadership & Service", target: "panel-leadership" }
+    ]},
   ],
 };

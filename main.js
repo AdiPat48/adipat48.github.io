@@ -26,8 +26,32 @@ document.title = SITE_CONFIG.name + ' · Academic Website';
 const navList = document.querySelector('.nav-links');
 SITE_CONFIG.nav.forEach(item => {
   const li = document.createElement('li');
-  li.innerHTML = `<a href="#${item.id}">${item.label}</a>`;
+  if (item.sub) {
+    li.classList.add('has-dropdown');
+    let subHtml = `<ul class="dropdown">`;
+    item.sub.forEach(sub => {
+      subHtml += `<li><a href="#${item.id}" data-tab-target="${sub.target}">${sub.label}</a></li>`;
+    });
+    subHtml += `</ul>`;
+    li.innerHTML = `<a href="#${item.id}" class="nav-item-main">${item.label} <span style="font-size:0.7em; vertical-align:middle;">▼</span></a>${subHtml}`;
+  } else {
+    li.innerHTML = `<a href="#${item.id}" class="nav-item-main">${item.label}</a>`;
+  }
   navList.appendChild(li);
+});
+
+// Switch tabs when a dropdown link is clicked
+document.querySelectorAll('.dropdown a').forEach(a => {
+  a.addEventListener('click', (e) => {
+    // Small delay to allow default #hash scroll, then trigger the tab transition
+    setTimeout(() => {
+      const targetId = a.getAttribute('data-tab-target');
+      if (targetId) {
+        const tabBtn = document.querySelector(`button[data-target="${targetId}"]`);
+        if (tabBtn) tabBtn.click();
+      }
+    }, 50);
+  });
 });
 
 // Hamburger toggle
@@ -37,7 +61,11 @@ navToggle.addEventListener('click', () => navList.classList.toggle('open'));
 
 // Close menu on link click (mobile)
 navList.addEventListener('click', e => {
-  if (e.target.tagName === 'A') navList.classList.remove('open');
+  if (e.target.tagName === 'A' && !e.target.classList.contains('nav-item-main')) {
+    navList.classList.remove('open');
+  } else if (e.target.tagName === 'A' && e.target.classList.contains('nav-item-main') && !e.target.parentElement.classList.contains('has-dropdown')) {
+    navList.classList.remove('open');
+  }
 });
 
 // ── 3. Fetch helper ─────────────────────────────────────────
