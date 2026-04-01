@@ -7,7 +7,7 @@ Before registering for my PhD, I completed three rotation projects and a summer 
 
 I established performance benchmarks to validate NestOR (Arvindekar, Pathak et al., 2024), a Bayesian framework for optimizing structural representations. Using the Integrative Modeling Platform (IMP), I generated structural ensembles for RNA Pol II and the γ-tubulin small complex (gTUSC) across resolutions from 1 to 100 residues per bead. I quantified trade-offs between CPU sampling time, ensemble precision (RMSD), and agreement with cross-linking and EM data — providing foundational metrics for multi-scale model selection.
 
-**Publication:** Arvindekar S, Pathak AS, Majila K, Viswanath S. Optimizing representations for integrative structural modeling using Bayesian model selection. *Bioinformatics*. 2024.
+**Publication:** Arvindekar S, Pathak AS, Majila K, Viswanath S#. Optimizing representations for integrative structural modeling using Bayesian model selection. *Bioinformatics*. 2024.
 
 ## rotation_2
 ### Rotation 2 · Organelle Biology Lab, NCBS (Oct–Nov 2021)

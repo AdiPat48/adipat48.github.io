@@ -80,7 +80,9 @@ function parseRepeatingBlocks(raw, key) {
   const parts = raw.split(regex);
   parts.forEach((block, i) => {
     if (i === 0 && !block.startsWith('\n')) return; // skip preamble
-    const lines = block.trim().split('\n');
+    // Cut off the block at the next header to avoid parsing subsequent sections
+    const actualBlock = block.split(/^## /m)[0];
+    const lines = actualBlock.trim().split('\n');
     const entry = {};
     lines.forEach(line => {
       const col = line.indexOf(':');
