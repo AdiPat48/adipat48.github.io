@@ -1,5 +1,5 @@
 ## note
-* Equal contribution  |  # Corresponding author
+\* Equal contribution  |  # Corresponding author
 
 ## pub
 authors: Pathak A, Tiwari V, and Sowdhamini R#
@@ -9,7 +9,7 @@ year: Accepted
 type: Review Article
 
 ## pub
-authors: Joshi S*, Pathak A*, Regati DR*, Menon R, Ajith DS, Sheshadri A, Viswanathan N, Ray P, Koul V, Panda P, Bhambore SA, Verma S, Sinha A, Shafi KM, Pavalam M, Sowdhamini R#
+authors: Joshi S\*, Pathak A\*, Regati DR\*, Menon R, Ajith DS, Sheshadri A, Viswanathan N, Ray P, Koul V, Panda P, Bhambore SA, Verma S, Sinha A, Shafi KM, Pavalam M, Sowdhamini R#
 title: GRAYU: Graph-based Database integrating Ayurvedic formulations, medicinal plants, phytochemicals and diseases
 journal: Frontiers in Pharmacology
 year: 2026
@@ -21,7 +21,7 @@ journal: Biochimie
 year: 2025
 
 ## pub
-authors: Tiwari V*, Pathak A*, Poojary T, Sowdhamini R#, Surolia A#
+authors: Tiwari V\*, Pathak A\*, Poojary T, Sowdhamini R#, Surolia A#
 title: Exploration of structural space of Cus17 lectin with glycans using molecular docking and simulation studies
 journal: Computational and Structural Biotechnology Journal
 year: 2025

@@ -15,7 +15,7 @@ category: Biological Application
 image: assets/images/website_images_cus17.webp
 description: Cus17 is a phloem lectin from *Cucumis sativus* that mediates plant defense by recognizing carbohydrate signatures on insect and fungal surfaces, yet its interactions with higher oligosaccharides remain structurally unresolved. We combined molecular docking, binding-site prediction, and molecular dynamics simulations to map ligand binding across canonical and non-canonical sites, and to explore multivalent interactions within dimeric and modelled tetrameric assemblies. This work reveals a complex binding landscape, suggesting that ligand specificity, alternative binding sites, and oligomerization collectively shape the recognition of phloem invaders by plant lectins.
 keywords: Ligand docking · Molecular dynamics simulations · MM-GBSA binding free energy calculations · Unbinding event analysis
-ref: Tiwari V*, Pathak A*, Poojary T, Sowdhamini R, Surolia A. Exploration of structural space of Cus17 lectin with glycans using molecular docking and simulation studies. Computational and Structural Biotechnology Journal. 2025.
+ref: Tiwari V\*, Pathak A\*, Poojary T, Sowdhamini R, Surolia A. Exploration of structural space of Cus17 lectin with glycans using molecular docking and simulation studies. Computational and Structural Biotechnology Journal. 2025.
 
 ## project_3
 ### GRAYU: A Knowledge Graph for Ayurveda
@@ -23,7 +23,7 @@ category: Database
 image: assets/images/website_images_grayu.webp
 description: Can centuries-old traditional medicine be made compatible with modern data science? GRAYU unifies Ayurvedic formulations, plants, phytochemicals, and diseases into a graph-based framework that enables relationship-driven exploration. Now built and deployed online, it lays the groundwork for hypothesis generation at the interface of traditional knowledge and modern pharmacology. Explore the database at https://caps.ncbs.res.in/GRAYU/home
 keywords: Knowledge Graphs · Neo4j · Graph Querying · Interactive Visualization
-ref: Joshi S*, Pathak A*, Regati DR*, Menon R, Ajith DS, Sheshadri A, Viswanathan N, Ray P, Koul V, Panda P, Bhambore SA, Verma S, Sinha A, Shafi KM, Pavalam M, Sowdhamini R. GRAYU: Graph-based Database integrating Ayurvedic formulations, medicinal plants, phytochemicals and diseases. Frontiers in Pharmacology. 2026.
+ref: Joshi S\*, Pathak A\*, Regati DR\*, Menon R, Ajith DS, Sheshadri A, Viswanathan N, Ray P, Koul V, Panda P, Bhambore SA, Verma S, Sinha A, Shafi KM, Pavalam M, Sowdhamini R. GRAYU: Graph-based Database integrating Ayurvedic formulations, medicinal plants, phytochemicals and diseases. Frontiers in Pharmacology. 2026.
 
 ## project_4
 ### PIMADb 2.0: An Updated Database of Protein–Protein Interactions in Macromolecular Assemblies

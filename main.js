@@ -81,6 +81,7 @@ async function fetchText(path) {
 function parseMini(text) {
   if (!text) return '';
   return text
+    .replace(/\\\*/g, '&#42;')
     .replace(/\[([^\]]+)\]\(([^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
     .replace(/\*([^*]+?)\*/g, '<em>$1</em>')
