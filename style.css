@@ -680,7 +680,6 @@ section:nth-of-type(even) {
   font-size: 0.82rem;
   color: var(--color-text-light);
   margin-bottom: 2rem;
-  font-style: italic;
 }
 
 .pub-list {

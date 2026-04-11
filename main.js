@@ -388,7 +388,7 @@ async function loadPublications() {
   const raw = await fetchText('content/publications.txt');
   const s = parseSections(raw);
   const noteEl = document.getElementById('pub-note');
-  if (noteEl && s.note) noteEl.textContent = s.note;
+  if (noteEl && s.note) noteEl.innerHTML = parseMini(s.note);
 
   const pubs = parseRepeatingBlocks(raw, 'pub');
   const inpreps = parseRepeatingBlocks(raw, 'inprep');
