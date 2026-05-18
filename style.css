@@ -1101,14 +1101,14 @@ section:nth-of-type(even) {
   padding: 0.25rem 0.8rem;
   border-radius: var(--radius-pill);
   text-decoration: none;
-  background: var(--color-light-cream);
+  background: var(--color-cream);
   color: var(--color-text-mid) !important;
   border: 1px solid rgba(0,0,0,0.08);
   transition: transform 0.2s ease, background 0.2s ease;
   user-select: none;
 }
 .pub-btn:hover {
-  background: var(--color-cream);
+  background: #dce1e9;
   transform: translateY(-1px);
 }
 
