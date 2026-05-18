@@ -467,11 +467,36 @@ async function loadOutreach() {
   const postersEl = document.getElementById('posters-list');
   if (postersEl && pres.posters) {
     const items = parseSubitems(pres.posters);
-    postersEl.innerHTML = items.map(({ heading, body }) => `
-      <li class="pres-item reveal">
-        <strong>${parseMini(body.split('\n')[0])}</strong>
-        <span class="pres-meta">${heading} · ${body.split('\n').slice(1).join(' ')}</span>
-      </li>`).join('');
+    postersEl.innerHTML = items.map(({ heading, body }) => {
+      const posters = body.split(/\n\s*\n/).filter(Boolean);
+      return posters.map(poster => {
+        const lines = poster.split('\n');
+        const titleLine = lines[0];
+        const metaLines = [];
+        const actionLines = [];
+        lines.slice(1).forEach(line => {
+          const trimmed = line.trim();
+          if (trimmed.startsWith('btn-blue: ')) {
+            actionLines.push({ type: 'btn-blue', text: trimmed.replace(/^btn-blue:\s*/, '') });
+          } else if (trimmed.startsWith('btn-grey: ')) {
+            actionLines.push({ type: 'btn-grey', text: trimmed.replace(/^btn-grey:\s*/, '') });
+          } else if (trimmed) {
+            metaLines.push(line);
+          }
+        });
+        const metaHtml = `<span class="pres-meta">${heading} · ${metaLines.join(' ')}</span>`;
+        const actionsHtml = actionLines.length
+          ? `<span class="pres-actions" style="margin-left: 0.75rem; display: inline-flex; gap: 0.6rem;">
+              ${actionLines.map(a => parseMini(a.text).replace('<a ', `<a class="pres-btn ${a.type}" `)).join('')}
+             </span>`
+          : '';
+        return `
+          <li class="pres-item reveal">
+            <strong>${parseMini(titleLine)}${actionsHtml}</strong>
+            ${metaHtml}
+          </li>`;
+      }).join('');
+    }).join('');
   }
 
   const talksEl = document.getElementById('talks-list');

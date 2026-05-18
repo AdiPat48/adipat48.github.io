@@ -3,7 +3,7 @@
 Scheduled to deliver an interactive lecture titled **"Build-a-Protein: Designing Life's Tiny Machines."**
 
 ## mentoring_intro
-I have mentored 8 students between 2022 and present — 3 Masters students and 5 Undergraduates.
+I have mentored 9 students between 2022 and present — 3 Masters students and 6 Undergraduates.
 
 ## mentee
 name: Swetha Praveen
@@ -48,3 +48,8 @@ name: Aditya Sheshadri
 role: Intern (May–Jun 2025)
 project: Backend Neo4j graph database integration for the GRAYU website
 note: Co-authored Joshi, Pathak et al., 2026.
+
+## mentee
+name: Jaynika Mali
+role: Intern (May–Aug 2026)
+project: Interactive UI/UX design and frontend development for the PIMADB 2.0 database

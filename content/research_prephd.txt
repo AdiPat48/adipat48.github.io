@@ -1,16 +1,16 @@
 ## intro
 Before registering for my PhD, I completed three rotation projects and a summer internship that shaped my research interests and technical repertoire.
 
-## rotation_1
-### Rotation 1 · Integrative Structural Biology Lab, NCBS (Feb–Mar 2022)
+## rotation_3
+### Rotation 3 · Integrative Structural Biology Lab, NCBS (Feb–Mar 2022)
 **Supervisor:** Dr. Shruthi Viswanath
 
-I established performance benchmarks to validate <a href="https://github.com/isblab/nestor" style="font-weight: bold; text-decoration: underline;" target="_blank" rel="noopener">NestOR<span style="font-size: 0.85em; margin-left: 2px; display: inline-block; text-decoration: none;">↗</span></a>, a Bayesian framework for optimizing structural representations. Using the <a href="https://integrativemodeling.org/" style="font-weight: bold; text-decoration: underline;" target="_blank" rel="noopener">Integrative Modeling Platform (IMP)<span style="font-size: 0.85em; margin-left: 2px; display: inline-block; text-decoration: none;">↗</span></a>, I generated structural ensembles for RNA Pol II and the γ-tubulin small complex (gTUSC) across resolutions from 1 to 100 residues per bead. I quantified trade-offs between CPU sampling time, ensemble precision (RMSD), and agreement with cross-linking and EM data — providing foundational metrics for multi-scale model selection.
+I established performance benchmarks to validate <a href="https://github.com/isblab/nestor" style="font-weight: bold; text-decoration: underline;" target="_blank" rel="noopener">NestOR<span style="font-size: 0.85em; margin-left: 2px; display: inline-block; text-decoration: none;">↗</span></a>, a Bayesian framework for optimizing structural representations. Using the <a href="https://integrativemodeling.org/" style="font-weight: bold; text-decoration: underline;" target="_blank" rel="noopener">Integrative Modeling Platform (IMP)<span style="font-size: 0.85em; margin-left: 2px; display: inline-block; text-decoration: none;">↗</span></a>, I generated structural ensembles for RNA Pol II and the γ-tubulin small complex (gTUSC) across resolutions from 1 to 100 residues per bead. I quantified trade-offs between CPU sampling time, ensemble precision (RMSD), and agreement with cross-linking and EM data - providing foundational metrics for multi-scale modelling.
 
 **Publication:** Arvindekar S, Pathak AS, Majila K, Viswanath S#. Optimizing representations for integrative structural modeling using Bayesian model selection. *Bioinformatics*. 2024.
 
-## rotation_2
-### Rotation 2 · Organelle Biology Lab, NCBS (Oct–Nov 2021)
+## rotation_1
+### Rotation 1 · Organelle Biology Lab, NCBS (Oct–Nov 2021)
 **Supervisor:** Dr. Swadhin Chandra Jana
 
 I worked on a preliminary RNAi screen for ciliary proteins in Drosophila. I learned fly pushing techniques and set up crosses to generate knockdowns using the Gal4–UAS system. I performed phenotype screening through eclosion and pupal development monitoring, along with negative geotaxis (climbing) assays to infer sensory and cilia-associated functional defects.
