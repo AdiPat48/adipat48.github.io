@@ -399,6 +399,7 @@ async function loadPublications() {
   let html = '';
   pubs.forEach((pub, i) => {
     const badge = pub.type ? `<span class="pub-badge">${pub.type}</span>` : '';
+    const linkBtn = pub.link ? `<div style="margin-top: 0.6rem;"><a href="${pub.link}" target="_blank" rel="noopener" class="pres-btn btn-blue">Link to publication</a></div>` : '';
     html += `
       <div class="pub-entry reveal">
         <span class="pub-num">${i + 1}</span>
@@ -406,6 +407,7 @@ async function loadPublications() {
           <div class="pub-title">${parseMini(pub.title || '')}${badge}</div>
           <div class="pub-authors">${parseMini(pub.authors || '')}</div>
           <div class="pub-journal">${pub.journal || ''}${pub.year ? ' · ' + pub.year : ''}</div>
+          ${linkBtn}
         </div>
       </div>`;
   });

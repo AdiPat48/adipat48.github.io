@@ -7,24 +7,28 @@ title: Emerging strategies for computational identification of protein–protein
 journal: Current Opinion in Structural Biology
 year: 2026
 type: Review Article
+link: https://doi.org/10.1016/j.sbi.2026.103241
 
 ## pub
 authors: Joshi S\*, Pathak A\*, Regati DR\*, Menon R, Ajith DS, Sheshadri A, Viswanathan N, Ray P, Koul V, Panda P, Bhambore SA, Verma S, Sinha A, Shafi KM, Pavalam M, Sowdhamini R#
 title: GRAYU: Graph-based Database integrating Ayurvedic formulations, medicinal plants, phytochemicals and diseases
 journal: Frontiers in Pharmacology
 year: 2026
+link: https://doi.org/10.3389/fphar.2025.1727224
 
 ## pub
 authors: Pathak A, Sowdhamini R#
 title: Computational structural analysis sheds light on the molecular grammar of gap junction proteins
 journal: Biochimie
 year: 2025
+link: https://doi.org/10.1016/j.biochi.2025.10.001
 
 ## pub
 authors: Tiwari V\*, Pathak A\*, Poojary T, Sowdhamini R#, Surolia A#
 title: Exploration of structural space of Cus17 lectin with glycans using molecular docking and simulation studies
 journal: Computational and Structural Biotechnology Journal
 year: 2025
+link: https://doi.org/10.1016/j.csbj.2025.07.028
 
 ## pub
 authors: Pathak A, Tiwari V, Menon R, Sowdhamini R#
@@ -32,6 +36,7 @@ title: Prediction of Protein–Protein Interactions
 journal: Encyclopedia of Bioinformatics and Computational Biology (Second Edition)
 year: 2025
 type: Book Chapter
+link: https://doi.org/10.1016/B978-0-323-95502-7.00146-9
 
 ## pub
 authors: Verma S, Sharma A, Pathak A, Menon R, Sowdhamini R#
@@ -39,12 +44,14 @@ title: Evolution of Protein Families
 journal: Encyclopedia of Bioinformatics and Computational Biology (Second Edition)
 year: 2025
 type: Book Chapter
+link: https://doi.org/10.1016/B978-0-323-95502-7.00144-5
 
 ## pub
 authors: Arvindekar S, Pathak AS, Majila K, Viswanath S#
 title: Optimizing representations for integrative structural modeling using Bayesian model selection
 journal: Bioinformatics
 year: 2024
+link: https://doi.org/10.1093/bioinformatics/btae106
 
 ## inprep
 authors: Pathak A, Sowdhamini R#
