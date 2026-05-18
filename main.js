@@ -486,14 +486,15 @@ async function loadOutreach() {
         });
         const metaHtml = `<span class="pres-meta">${heading} · ${metaLines.join(' ')}</span>`;
         const actionsHtml = actionLines.length
-          ? `<span class="pres-actions" style="margin-left: 0.75rem; display: inline-flex; gap: 0.6rem;">
+          ? `<div class="pres-actions" style="margin-top: 0.75rem; display: flex; gap: 0.6rem; flex-wrap: wrap;">
               ${actionLines.map(a => parseMini(a.text).replace('<a ', `<a class="pres-btn ${a.type}" `)).join('')}
-             </span>`
+             </div>`
           : '';
         return `
           <li class="pres-item reveal">
-            <strong>${parseMini(titleLine)}${actionsHtml}</strong>
+            <strong>${parseMini(titleLine)}</strong>
             ${metaHtml}
+            ${actionsHtml}
           </li>`;
       }).join('');
     }).join('');

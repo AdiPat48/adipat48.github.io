@@ -2,7 +2,7 @@
 ### 2026
 **Deciphering the molecular grammar of gap junctions using integrative structural bioinformatics**
 ISCB-UK, Cambridge · April 21–22, 2026
-btn-grey: [Poster](assets/ISCB-UK_Poster_2026.pdf)
+btn-blue: [Poster](assets/ISCB-UK_Poster_2026.pdf)
 
 **Bridging Protein Sequence, Structure, and Function Through Integrative Computational Approaches**
 2nd DAE Conclave, TIFR Mumbai · Jan 14–18, 2026

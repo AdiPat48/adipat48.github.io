@@ -560,7 +560,7 @@ section:nth-of-type(even) {
 /* Header row: title + category badge side by side */
 .research-card-header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 0.75rem;
   flex-wrap: wrap;
   margin-bottom: 0;
@@ -589,7 +589,6 @@ section:nth-of-type(even) {
   border-radius: var(--radius-pill);
   pointer-events: none;
   user-select: none;
-  margin-top: 0.22rem; /* optical alignment with h3 cap-height */
 }
 
 .cat-bio {
