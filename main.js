@@ -443,7 +443,27 @@ async function loadOutreach() {
   if (teachEl && teach.teaching) {
     const items = parseSubitems(teach.teaching);
     if (items.length) {
-      teachEl.innerHTML = `<strong>${items[0].heading}</strong><br>${parseMini(items[0].body)}`;
+      const { heading, body } = items[0];
+      const lines = body.split('\n');
+      const textLines = [];
+      const actionLines = [];
+      lines.forEach(line => {
+        const trimmed = line.trim();
+        if (trimmed.startsWith('btn-blue: ')) {
+          actionLines.push({ type: 'btn-blue', text: trimmed.replace(/^btn-blue:\s*/, '') });
+        } else if (trimmed.startsWith('btn-grey: ')) {
+          actionLines.push({ type: 'btn-grey', text: trimmed.replace(/^btn-grey:\s*/, '') });
+        } else {
+          textLines.push(line);
+        }
+      });
+      const bodyHtml = parseMini(textLines.join('\n'));
+      const actionsHtml = actionLines.length
+        ? `<div class="pres-actions" style="margin-top: 0.75rem; display: flex; gap: 0.6rem; flex-wrap: wrap;">
+            ${actionLines.map(a => parseMini(a.text).replace('<a ', `<a class="pres-btn ${a.type}" `)).join('')}
+           </div>`
+        : '';
+      teachEl.innerHTML = `<strong>${heading}</strong><br>${bodyHtml}${actionsHtml}`;
     }
   }
 

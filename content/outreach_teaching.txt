@@ -1,6 +1,12 @@
 ## teaching
 ### Selected Instructor, 13th Undergraduate Lecture Series (May–June 2026)
-Scheduled to deliver an interactive lecture titled **"Build-a-Protein: Designing Life's Tiny Machines."**
+Delivered an interactive lecture titled **"Build-a-Protein"** on 30th May, 2026.
+
+Proteins do jobs. Some grab, some cut, some glow, some switch. The exciting part is that researchers are beginning to design proteins on purpose, building new molecular machines to carry out specific tasks.
+
+In this session, we become protein engineers. We will walk through how researchers build proteins, from choosing a function to assembling parts and testing new designs. We will assemble a custom protein to tackle a real biological mission. Then we will stress-test the design the way scientists do. Where should it work in the cell? How should the parts be connected? What might fail, and how would we redesign it?
+btn-blue: [Lecture Slides](assets/Build-a-protein.pdf)
+btn-grey: [Worksheets](assets/13th_UndergraduateLS_Aditi_worksheets.pdf)
 
 ## mentoring_intro
 I have mentored 9 students between 2022 and present — 3 Masters students and 6 Undergraduates.
