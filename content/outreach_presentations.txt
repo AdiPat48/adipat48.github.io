@@ -17,6 +17,7 @@ MASFE (Macromolecular Assemblies: Structure, Function, and Evolution), IISER Pun
 
 ## talks
 ### Annual Work Seminars, NCBS
+- **Computational modelling of heteromeric gap junctions** (Jun 17, 2026)
 - **Computational Studies of Gap Junction Channels** (Nov 4, 2024)
 - **Dissecting Protein-Protein Interactions in Macromolecular Assemblies** (Sep 4, 2023)
 
