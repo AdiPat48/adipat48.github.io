@@ -16,6 +16,11 @@ NCBS Annual Talks · Jan 15–17, 2025
 MASFE (Macromolecular Assemblies: Structure, Function, and Evolution), IISER Pune · Aug 2–4, 2023
 
 ## talks
+### Invited Talks
+- **Exploration of Structural Space of Cus17 Lectin with Glycans Using Molecular Docking and Simulation Studies** (Sep 3, 2026)
+Presented in an online memorial meeting for late Prof. N. Srinivasan, at which his colleagues and collaborators shared their research and reflections on working with him.
+ref: *Tiwari V\*, Pathak A\*, Poojary T, Sowdhamini R, Surolia A. "Exploration of structural space of Cus17 lectin with glycans using molecular docking and simulation studies." Computational and Structural Biotechnology Journal, 2025.*
+
 ### Annual Work Seminars, NCBS
 - **Computational Modelling of Heteromeric Gap Junctions** (Jun 17, 2026)
 - **Computational Studies of Gap Junction Channels** (Nov 4, 2024)
