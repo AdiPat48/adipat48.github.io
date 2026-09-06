@@ -19,4 +19,4 @@ I worked on a preliminary RNAi screen for ciliary proteins in Drosophila. I lear
 ### Summer Internship · SVKM's C.B. Patel Research Centre, Mumbai (June 2019)
 **Supervisor:** Dr. Niyati Mudliar
 
-I performed fluorimetric and spectrophotometric assays to quantify Heparin and Insulin fibril concentrations using biosensor dyes, analyzing spectral datasets to evaluate molecular detection and aggregation of bio-analytes.
+I used fluorimetric and spectrophotometric assays with dye-based biosensors to detect and quantify heparin, and to monitor insulin fibril formation. I analysed the resulting spectral datasets to assess the sensitivity and dynamic range of the detection.
