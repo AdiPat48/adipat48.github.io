@@ -33,6 +33,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--nav-height) + 1rem);
   font-size: 16px;
 }
 
@@ -75,6 +76,12 @@ strong { font-weight: 600; color: var(--color-text-dark); }
 
 section {
   padding: var(--section-gap) 0;
+  scroll-margin-top: var(--nav-height);
+}
+
+/* Scroll targets (for JS scrollIntoView) need margin to clear sticky nav */
+[id].pres-group {
+  scroll-margin-top: calc(var(--nav-height) + 1rem);
 }
 
 section:nth-of-type(even) {
