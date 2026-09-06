@@ -530,8 +530,9 @@ async function loadOutreach() {
       const rawEntries = body.split(/\n\s*-\s+/).filter(Boolean);
       const entries = rawEntries.map((e, i) => (i === 0) ? e.replace(/^-\s+/, '') : e);
 
+      const groupId = 'talk-group-' + heading.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
       return `
-        <div class="pres-group reveal">
+        <div class="pres-group reveal" id="${groupId}">
           <h3>${heading}</h3>
           <ul class="pres-list">
             ${entries.map(e => {
