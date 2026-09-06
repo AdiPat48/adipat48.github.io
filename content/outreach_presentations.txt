@@ -18,7 +18,7 @@ MASFE (Macromolecular Assemblies: Structure, Function, and Evolution), IISER Pun
 ## talks
 ### Invited Talks
 - **Exploration of Structural Space of Cus17 Lectin with Glycans Using Molecular Docking and Simulation Studies** (Sep 3, 2026)
-Presented in an online memorial meeting for late Prof. N. Srinivasan, at which his colleagues and collaborators shared their research and reflections on working with him.
+Presented our work on lectin-glycan interactions in an online memorial meeting for late Prof. N. Srinivasan, at which his colleagues and collaborators shared their research and reflections on working with him.
 
 ### Annual Work Seminars, NCBS
 - **Computational Modelling of Heteromeric Gap Junctions** (Jun 17, 2026)
