@@ -41,14 +41,30 @@ SITE_CONFIG.nav.forEach(item => {
 });
 
 // Switch tabs when a dropdown link is clicked
+// Directly toggles active classes instead of relying on initTabs handlers,
+// so it works even before async content has finished loading.
 document.querySelectorAll('.dropdown a').forEach(a => {
   a.addEventListener('click', (e) => {
-    // Small delay to allow default #hash scroll, then trigger the tab transition
     setTimeout(() => {
       const targetId = a.getAttribute('data-tab-target');
-      if (targetId) {
-        const tabBtn = document.querySelector(`button[data-target="${targetId}"]`);
-        if (tabBtn) tabBtn.click();
+      if (!targetId) return;
+      const targetPanel = document.getElementById(targetId);
+      if (!targetPanel) return;
+      // Find the tab button and its sibling tabs/panels
+      const tabBtn = document.querySelector(`button[data-target="${targetId}"]`);
+      if (tabBtn) {
+        const container = tabBtn.parentElement;
+        // Determine the panel class from the target panel's classList
+        const panelClass = Array.from(targetPanel.classList).find(c => c.endsWith('-panel'));
+        if (container && panelClass) {
+          // Deactivate all sibling tabs
+          container.querySelectorAll('button[role="tab"]').forEach(t => t.classList.remove('active'));
+          // Deactivate all sibling panels
+          document.querySelectorAll('.' + panelClass).forEach(p => p.classList.remove('active'));
+          // Activate the target
+          tabBtn.classList.add('active');
+          targetPanel.classList.add('active');
+        }
       }
     }, 50);
   });

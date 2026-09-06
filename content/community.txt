@@ -3,7 +3,7 @@ The **Protein Journal Club (PJC)** at NCBS is a student-run group dedicated to d
 
 With my colleagues Aysha and Harika, I organised the PJC from 2023 to 2025, managing all aspects of coordination: speaker scheduling, outreach, participant recruitment, venue and logistics, and refreshments. I also designed the journal club's visual identity, including promotional posters and the PJC logo.
 
-I’ve shared more about my own talks—including announcements and slides—over <a href="#outreach" onclick='document.querySelector(".outreach-tab[data-target=\"panel-pres\"]").click(); setTimeout(function(){ document.getElementById("talk-group-protein-journal-club-ncbs").scrollIntoView({behavior: "smooth"}); }, 400);' target="_self" style="color:var(--color-teal); text-decoration:none;">**<u>here</u>**</a>.
+I've shared more about my own talks—including announcements and slides—over <a href="#outreach" onclick='event.preventDefault(); var tabs=document.querySelectorAll(".outreach-tab"); tabs.forEach(function(t){t.classList.remove("active")}); document.querySelectorAll(".outreach-panel").forEach(function(p){p.classList.remove("active")}); var btn=document.querySelector(".outreach-tab[data-target=\"panel-pres\"]"); if(btn){btn.classList.add("active")} var panel=document.getElementById("panel-pres"); if(panel){panel.classList.add("active")} setTimeout(function(){ var el=document.getElementById("talk-group-protein-journal-club-ncbs"); if(el){el.scrollIntoView({behavior:"smooth",block:"start"})} },100);' target="_self" style="color:var(--color-teal); text-decoration:none;">**<u>here</u>**</a>.
 
 Check out some of the posters we put together for our recruitment drives:
 
