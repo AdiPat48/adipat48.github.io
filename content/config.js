@@ -8,7 +8,7 @@ const SITE_CONFIG = {
   // ── Personal info ──────────────────────────────────────────
   name:    "Aditi Pathak",
   tagline: "Integrated PhD Student · NCBS Bangalore",
-  version: 33,
+  version: 34,
   email:   "aditipathak@ncbs.res.in",
 
   // ── Social links ──────────────────────────────────────────

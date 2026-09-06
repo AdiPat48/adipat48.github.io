@@ -19,6 +19,12 @@
   root.setProperty('--color-accent',      p.accent);
 })();
 
+// ── 1b. Content-ready gate ───────────────────────────────────
+// Nav links wait for this before scrolling, so sections are at
+// their final positions (all async content populated).
+let _resolveContentReady;
+const contentReady = new Promise(r => { _resolveContentReady = r; });
+
 // ── 2. Populate nav & identity ───────────────────────────────
 document.querySelector('.nav-logo').textContent = SITE_CONFIG.name;
 document.title = SITE_CONFIG.name + ' · Academic Website';
@@ -40,12 +46,25 @@ SITE_CONFIG.nav.forEach(item => {
   navList.appendChild(li);
 });
 
+// Intercept all nav link clicks so we wait for content to load
+// before scrolling — prevents scrolling to wrong positions on first load.
+navList.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', (e) => {
+    e.preventDefault();
+    const targetId = a.getAttribute('href').slice(1);
+    contentReady.then(() => {
+      const section = document.getElementById(targetId);
+      if (section) section.scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+});
+
 // Switch tabs when a dropdown link is clicked
 // Directly toggles active classes instead of relying on initTabs handlers,
-// so it works even before async content has finished loading.
+// and waits for content to be loaded before switching.
 document.querySelectorAll('.dropdown a').forEach(a => {
   a.addEventListener('click', (e) => {
-    setTimeout(() => {
+    contentReady.then(() => {
       const targetId = a.getAttribute('data-tab-target');
       if (!targetId) return;
       const targetPanel = document.getElementById(targetId);
@@ -730,6 +749,9 @@ async function init() {
   } catch (err) {
     console.warn('Content load error:', err);
   }
+
+  // Signal that all content is loaded — nav scrolls are now safe
+  _resolveContentReady();
 
   initTabs('research-tabs', 'research-tab', 'research-panel');
   initTabs('outreach-tabs', 'outreach-tab', 'outreach-panel');
